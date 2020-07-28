@@ -37,10 +37,10 @@ html {
   right: 30px;
 }
 
-li {
+/* li {
   position: absolute;
   bottom: 30px;
-}
+} */
 
 #list {
   overflow: hidden;
@@ -49,10 +49,10 @@ li {
   cursor: pointer;
 }
 
-ul#list li {
+/* ul#list li {
   display: inline;
   color: white;
-}
+} */
 
 .donation {
   position: absolute;
@@ -140,9 +140,9 @@ button {
   position: fixed;
   z-index: 1;
   bottom: 30px;
-  width: 50%;
-  height: 10%;
-  left: 25%;
+  width: 15%;
+  height: 7.5%;
+  left: 37.5%;
   margin: 0 auto;
   overflow: auto;
   background-color: white;
@@ -205,4 +205,22 @@ button {
 
 .modal_share .links li:hover {
   text-decoration: underline;
+}
+
+.social-share.facebook {
+  position: absolute;
+  left: 30%;
+  top: 30%;
+}
+
+.social-share.twitter {
+  position: absolute;
+  left: 45%;
+  top: 30%;
+}
+
+.social-share.linkedin {
+  position: absolute;
+  left: 60%;
+  top: 30%;
 }

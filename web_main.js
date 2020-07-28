@@ -16,13 +16,13 @@ span_share.onclick = function () {
 span_background.onclick = function () {
   modal_background.style.display = "none";
 };
-window.onclick = function (event) {
-  if (event.target == modal_share) {
-    modal_share.style.display = "none";
-  } else if (event.target == modal_background) {
-    modal_background.style.display = "none";
-  }
-};
+// window.onclick = function (event) {
+//   if (event.target == modal_share) {
+//     modal_share.style.display = "none";
+//   } else if (event.target == modal_background) {
+//     modal_background.style.display = "none";
+//   }
+// };
 
 setShareLinks();
 
