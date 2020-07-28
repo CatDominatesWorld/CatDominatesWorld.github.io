@@ -1,0 +1,208 @@
+/* body {
+    background: url('/bg.jpg');
+    background-size: cover;
+} */
+
+html {
+  background: url("bg_allall.png");
+  background-size: cover;
+  background-color: black;
+  overflow: hidden;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+#background {
+  position: absolute;
+  left: 30px;
+  bottom: 45px;
+  width: fit-content;
+  color: white;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+#download {
+  border: none;
+  background-color: inherit;
+  padding: 16px 32px;
+  font-size: 13px;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  color: black;
+  background-color: white;
+  bottom: 30px;
+  right: 30px;
+}
+
+li {
+  position: absolute;
+  bottom: 30px;
+}
+
+#list {
+  overflow: hidden;
+  background-color: #333333;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+ul#list li {
+  display: inline;
+  color: white;
+}
+
+.donation {
+  position: absolute;
+  bottom: 30px;
+  right: 275px;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+#share {
+  position: absolute;
+  bottom: 30px;
+  right: 205px;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+}
+
+.close_background:focus,
+.close_background:hover,
+.close_share:focus,
+.close_share:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close_background {
+  color: white;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.close_share {
+  color: black;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+button:active,
+button:active.focus,
+button {
+  outline: none;
+  box-shadow: none;
+  background-color: black;
+  border-style: outset;
+  border: none;
+}
+
+.modal_background {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  bottom: 30px;
+  width: 50%;
+  height: 25%;
+  left: 25%;
+  margin: 0 auto;
+  overflow: auto;
+  background: url("popup_background.png");
+  background-size: cover;
+  background-color: black;
+  border: 0.5px solid white;
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  animation-duration: 0.4s;
+  -webkit-animation-duration: 0.4s;
+}
+
+.modal_share {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  bottom: 30px;
+  width: 50%;
+  height: 10%;
+  left: 25%;
+  margin: 0 auto;
+  overflow: auto;
+  background-color: white;
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  animation-duration: 0.4s;
+  -webkit-animation-duration: 0.4s;
+}
+
+@-webkit-keyframes slideIn {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal_share .links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.modal_share .links li {
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.modal_share .links li:hover {
+  text-decoration: underline;
+}
