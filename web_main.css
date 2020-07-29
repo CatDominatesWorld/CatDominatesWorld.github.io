@@ -209,7 +209,7 @@ button {
 
 .social-share.facebook {
   position: absolute;
-  left: 20%;
+  left: 10%;
   top: 30%;
 }
 
@@ -221,6 +221,6 @@ button {
 
 .social-share.linkedin {
   position: absolute;
-  left: 70%;
+  left: 80%;
   top: 30%;
 }
